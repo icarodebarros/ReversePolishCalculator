@@ -1,6 +1,8 @@
-package com.icarodebarros.calculator;
+package com.icarodebarros.calculator.operations;
 
 import java.math.BigDecimal;
+
+import com.icarodebarros.calculator.operations.generics.BinaryOperation;
 
 public class DivideOperation extends BinaryOperation {
 

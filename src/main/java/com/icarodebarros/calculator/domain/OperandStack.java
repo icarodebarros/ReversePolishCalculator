@@ -1,4 +1,4 @@
-package com.icarodebarros.calculator;
+package com.icarodebarros.calculator.domain;
 
 import java.math.BigDecimal;
 import java.util.Stack;

@@ -1,6 +1,14 @@
-package com.icarodebarros.calculator;
+package com.icarodebarros.calculator.domain;
 
 import java.math.BigDecimal;
+
+import com.icarodebarros.calculator.operations.AddOperation;
+import com.icarodebarros.calculator.operations.DivideOperation;
+import com.icarodebarros.calculator.operations.FactorialOperation;
+import com.icarodebarros.calculator.operations.MultiplyOperation;
+import com.icarodebarros.calculator.operations.SquareOperation;
+import com.icarodebarros.calculator.operations.SubtractOperation;
+import com.icarodebarros.calculator.operations.generics.Operation;
 /**
  * REVERSE POLISH CALULATOR
  * O modo de funcionamento dessa caluladora é similar às calculadoras fincanceiras. Ou seja, os operandos são

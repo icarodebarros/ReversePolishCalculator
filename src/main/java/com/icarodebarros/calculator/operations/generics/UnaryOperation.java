@@ -1,6 +1,8 @@
-package com.icarodebarros.calculator;
+package com.icarodebarros.calculator.operations.generics;
 
 import java.math.BigDecimal;
+
+import com.icarodebarros.calculator.domain.OperandStack;
 
 public abstract class UnaryOperation implements Operation {
 

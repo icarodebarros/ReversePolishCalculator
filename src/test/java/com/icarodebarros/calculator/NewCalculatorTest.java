@@ -7,6 +7,8 @@ import java.math.BigDecimal;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import com.icarodebarros.calculator.domain.Calculator;
+
 public class NewCalculatorTest {
 	
 	private Calculator calculator;
